@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="tabNavigation.js"></script>
+  </head>
+  <body>
+    <h1>My page</h1>
+    <p>Click buttons to navigate!</p>
+    <div class="container">
+      <img src= 'coffee_cup.jpg' alt='coffee cup' style='width:50%;height:50%;' class="img">
+      <div class="tabContainer">
+        <div class="tab">
+          <button class="tablinks" onclick="openTab(event, 'Me')">Me</button>
+          <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+          <button class="tablinks" onclick="openTab(event, 'Blog')">Blog</button>
+          <button class="tablinks" onclick="openTab(event, 'CV')">CV</button>
+        </div>
+        <div id="Me" class="tabcontent">
+          <div class = "introPage">
+            <h3>Intro</h3>
+            <p>Hello, my name is Otso and this is my personal website. Here, you can learn more about me and my interests.</p>
+          </div>
+        </div>
+        <div id="About" class="tabcontent">
+          <h3>About me</h3>
+          <p>I study computerscience at Tampere University</p>
+        </div>
+        <div id="Blog" class="tabcontent">
+          <h3>Blog</h3>
+          <p>No blog posts yet!</p>
+        </div>
+        <div id="CV" class="tabcontent">
+          <h3>CV</h3>
+          <p>No additions yet!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
